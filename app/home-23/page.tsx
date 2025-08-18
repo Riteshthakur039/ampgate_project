@@ -12,7 +12,7 @@ import LayoutTwo from '@/components/shared/LayoutTwo'
 import Video from '@/components/shared/Video'
 
 export const metadata = {
-  title: 'Insurance Agency - Rivor',
+  title: 'Insurance Agency - ampgate',
 }
 
 const homepage23 = () => {

@@ -12,7 +12,7 @@ import LayoutTwo from '@/components/shared/LayoutTwo'
 import getMarkDownData from '@/utils/GetMarkDownData'
 
 export const metadata = {
-  title: 'Event Planner Agency - Rivor',
+  title: 'Event Planner Agency - ampgate',
 }
 
 export interface ServicesType {

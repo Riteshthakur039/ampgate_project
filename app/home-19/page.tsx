@@ -13,7 +13,7 @@ import CtaImageSlider from '@/components/shared/CtaImageSlider'
 import LayoutTwo from '@/components/shared/LayoutTwo'
 
 export const metadata = {
-  title: 'Startup Agency - Rivor',
+  title: 'Startup Agency - ampgate',
 }
 
 const homepage19 = () => {
