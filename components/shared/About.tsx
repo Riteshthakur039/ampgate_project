@@ -1,7 +1,7 @@
 'use client'
 import useReveal from '@/hooks/useReveal'
 import RevealWrapper from '../animation/RevealWrapper'
-import CompanyLogosMarquee from '../homepage-02/CompanyLogosMarquee'
+import MarqueeV2 from './MarqueeV2'
 import CircleTextAnimation from './CircleTextAnimation'
 
 interface AboutProps {
@@ -30,7 +30,7 @@ const About = ({ marquee = false }: AboutProps) => {
               <div className="absolute left-0 top-0 z-10 h-full w-20 bg-gradient-to-r from-backgroundBody to-transparent dark:from-dark"></div>
               <div className="absolute right-0 top-0 z-10 h-full w-20 bg-gradient-to-l from-backgroundBody to-transparent dark:from-dark"></div>
 
-              <CompanyLogosMarquee />
+              <MarqueeV2 />
             </RevealWrapper>
           </div>
         </div>

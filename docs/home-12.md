@@ -7,6 +7,7 @@ These assets are only related to Home Page 12. Use them to manage the blog posts
 - NextJS\data\testimonialsV8.json — review section JSON file
 
 For POSIX-style paths (as seen in the repo), the equivalents are:
+
 - `data/ai-solutions/blog`
 - `data/ai-solutions/services`
 - `data/testimonialsV8.json`
@@ -14,6 +15,7 @@ For POSIX-style paths (as seen in the repo), the equivalents are:
 ## Where the data is rendered
 
 Home 12 route and components:
+
 - Route: `app/home-12/page.tsx`
 - Components: `components/homepage-12/`
   - Blog: `BlogPostV7.tsx`
@@ -36,6 +38,7 @@ Home 12 route and components:
   - `understanding-the-ethical-implications-of-ai.md`
 
 Tips:
+
 - Keep slugs URL-safe. File name generally maps to the slug.
 - Use front matter (if supported by your loaders) for title, date, excerpt, cover image.
 
@@ -54,6 +57,7 @@ Tips:
   - `workflow-automation.md`
 
 Tips:
+
 - Keep titles short (<= 60 characters) to avoid wrapping issues.
 - Add brief summaries/excerpts to improve the card layout.
 
@@ -70,6 +74,7 @@ Tips:
   - `rating` (number, 1-5)
 
 Example entry:
+
 ```json
 {
   "id": 1,
@@ -82,6 +87,7 @@ Example entry:
 ```
 
 Guidelines:
+
 - Ensure `id` values are unique and sequential if used as keys.
 - Keep `rating` within 1–5. Non-integer values may not render as expected.
 - Place images in `public/images/avatar/` and reference with leading slash.

@@ -496,6 +496,31 @@ html.lenis {
   @apply pointer-events-none fixed z-[9999] hidden h-5 w-5 -translate-x-2 -translate-y-2 items-center justify-center self-center rounded-full bg-backgroundBody mix-blend-difference lg:flex;
 }
 
+// RV Badge Styles
+// -------------
+.rv-badge {
+  @apply relative mb-4 inline-block rounded-full border border-secondary px-4 py-2 text-sm font-medium uppercase tracking-wider text-secondary dark:border-backgroundBody dark:text-backgroundBody;
+
+  &-text {
+    @apply relative z-10;
+  }
+
+  &::before {
+    @apply absolute inset-0 rounded-full bg-secondary transition-all duration-300 dark:bg-backgroundBody;
+    transform: scaleX(0);
+    transform-origin: left;
+    content: '';
+  }
+
+  &:hover::before {
+    transform: scaleX(1);
+  }
+
+  &:hover .rv-badge-text {
+    @apply text-backgroundBody dark:text-secondary;
+  }
+}
+
 // Service Item Counter
 // -------------
 .service-item-wrapper {

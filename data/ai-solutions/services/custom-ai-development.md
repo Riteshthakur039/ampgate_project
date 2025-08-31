@@ -12,7 +12,6 @@ serialNumber: 5
 Your vision. Our engineering. AI made to fit your business.
 We build intelligent systems that solve unique challenges—custom-trained, fully owned, and designed for scale.
 
-
 ### Our service includes
 
 ✅ **Tailored AI Solutions**  
@@ -29,5 +28,3 @@ Build AI that doesn’t just analyze—but decides, recommends, or acts autonomo
 
 ✅ **Transparent, Auditable Logic**  
 We deliver documentation, logs, and explainability tools—so your system is trustworthy, traceable, and compliant.
-
-

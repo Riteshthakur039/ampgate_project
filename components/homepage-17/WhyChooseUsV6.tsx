@@ -11,79 +11,250 @@ type WhyChooseUsV6Props = {
     | 'custom-ai'
     | 'data-analytics'
     | 'app-dev'
-    | 'process-automation';
-};
-
+    | 'process-automation'
+}
 
 // Card content only (title/description) is dynamic, but layout and icons are fixed as before
 const CARD_CONTENTS = {
   chatbots: [
-    { title: 'Secure & Enterprise-Ready', description: 'We deliver compliant, encrypted bot frameworks ready for industries like healthcare, finance, and education.' },
-    { title: 'Tailored to Your Business', description: 'We don\'t do generic bots—each assistant is built for your workflows, tone, and goals, with full customization.' },
-    { title: 'Smart, Not Scripted', description: 'Our assistants go beyond decision trees. They learn, adapt, and engage users intelligently using advanced NLP.' },
-    { title: 'Easy to Manage & Scale', description: 'User-friendly dashboards, training tools, and integration flexibility—designed to grow with your team.' },
-    { title: 'Conversational UX Design', description: 'We apply UX best practices to ensure your bot is not just functional—but engaging, helpful, and on-brand.' }
+    {
+      title: 'Secure & Enterprise-Ready',
+      description:
+        'We deliver compliant, encrypted bot frameworks ready for industries like healthcare, finance, and education.',
+    },
+    {
+      title: 'Tailored to Your Business',
+      description:
+        "We don't do generic bots—each assistant is built for your workflows, tone, and goals, with full customization.",
+    },
+    {
+      title: 'Smart, Not Scripted',
+      description:
+        'Our assistants go beyond decision trees. They learn, adapt, and engage users intelligently using advanced NLP.',
+    },
+    {
+      title: 'Easy to Manage & Scale',
+      description:
+        'User-friendly dashboards, training tools, and integration flexibility—designed to grow with your team.',
+    },
+    {
+      title: 'Conversational UX Design',
+      description:
+        'We apply UX best practices to ensure your bot is not just functional—but engaging, helpful, and on-brand.',
+    },
   ],
   workflow: [
-    { title: 'Tailored to Your Operations', description: 'We don’t just automate—we understand your unique processes and rebuild them intelligently for long-term performance.' },
-    { title: 'Multi-Industry Expertise', description: 'Whether it’s automating patient alerts in healthcare, republishing videos for content creators, or streamlining lead intake in B2B, we bring practical, cross-domain insight to every build.' },
-    { title: 'Secure & Compliant Delivery', description: 'We follow best practices for access control, data privacy, and audit-ready documentation across every project.' },
-    { title: 'Process Clarity & Documentation', description: 'You get clear diagrams, SOPs, and usage guides—so your team isn’t left guessing how anything works.' },
-    { title: 'Faster Delivery, Lower Overhead', description: 'Our lean, high-impact approach helps you launch faster, eliminate manual work, and reduce staffing inefficiencies.' }
+    {
+      title: 'Tailored to Your Operations',
+      description:
+        "We don't just automate—we understand your unique processes and rebuild them intelligently for long-term performance.",
+    },
+    {
+      title: 'Multi-Industry Expertise',
+      description:
+        "Whether it's automating patient alerts in healthcare, republishing videos for content creators, or streamlining lead intake in B2B, we bring practical, cross-domain insight to every build.",
+    },
+    {
+      title: 'Secure & Compliant Delivery',
+      description:
+        'We follow best practices for access control, data privacy, and audit-ready documentation across every project.',
+    },
+    {
+      title: 'Process Clarity & Documentation',
+      description:
+        "You get clear diagrams, SOPs, and usage guides—so your team isn't left guessing how anything works.",
+    },
+    {
+      title: 'Faster Delivery, Lower Overhead',
+      description:
+        'Our lean, high-impact approach helps you launch faster, eliminate manual work, and reduce staffing inefficiencies.',
+    },
   ],
   'ai-marketing': [
-    { title: 'Intelligent, Not Just Automated', description: 'We go beyond simple rules. Our systems learn from user behavior and continuously adapt to optimize campaigns over time.' },
-    { title: 'Integrated with Your Stack', description: 'Whether you\'re using CRMs, email platforms, ad tools, or analytics dashboards—we connect everything into a unified growth system.' },
-    { title: 'From Awareness to Conversion', description: 'We design full-funnel automation—from lead generation to nurturing, to retention and reactivation.' },
-    { title: 'Data-Driven Decision Making', description: 'No more guesswork. You’ll get actionable marketing intelligence to guide strategy and spend more effectively.' },
-    { title: 'Built for Creators, Startups & Enterprises', description: 'Whether you\'re running e-commerce, growing a B2B brand, or scaling as a content creator, our marketing systems flex to fit your goals.' }
+    {
+      title: 'Intelligent, Not Just Automated',
+      description:
+        'We go beyond simple rules. Our systems learn from user behavior and continuously adapt to optimize campaigns over time.',
+    },
+    {
+      title: 'Integrated with Your Stack',
+      description:
+        "Whether you're using CRMs, email platforms, ad tools, or analytics dashboards—we connect everything into a unified growth system.",
+    },
+    {
+      title: 'From Awareness to Conversion',
+      description: 'We design full-funnel automation—from lead generation to nurturing, to retention and reactivation.',
+    },
+    {
+      title: 'Data-Driven Decision Making',
+      description:
+        "No more guesswork. You'll get actionable marketing intelligence to guide strategy and spend more effectively.",
+    },
+    {
+      title: 'Built for Creators, Startups & Enterprises',
+      description:
+        "Whether you're running e-commerce, growing a B2B brand, or scaling as a content creator, our marketing systems flex to fit your goals.",
+    },
   ],
   'voice-ai': [
-    { title: 'Built for High-Volume Conversations', description: 'Whether you’re calling 100 customers or 10,000—we deliver voice solutions that scale smoothly and cost-effectively.' },
-    { title: 'Conversational, Not Robotic', description: 'We design human-like interactions that feel natural, with pauses, tones, and fallback handling that mimic real agents.' },
-    { title: 'Used Across Industries', description: 'From healthcare appointment calls to logistics updates, ecommerce delivery alerts, or event confirmations, we’ve built voice systems that work where it matters.' },
-    { title: 'End-to-End Call Automation', description: 'We handle everything—voice logic, scripts, call routing, compliance prompts, logs, and performance reports.' },
-    { title: 'Secure, Compliant, & Monitored', description: 'Your voice system is designed with privacy, fallback handling, and opt-out compliance from day one.' }
+    {
+      title: 'Built for High-Volume Conversations',
+      description:
+        "Whether you're calling 100 customers or 10,000—we deliver voice solutions that scale smoothly and cost-effectively.",
+    },
+    {
+      title: 'Conversational, Not Robotic',
+      description:
+        'We design human-like interactions that feel natural, with pauses, tones, and fallback handling that mimic real agents.',
+    },
+    {
+      title: 'Used Across Industries',
+      description:
+        "From healthcare appointment calls to logistics updates, ecommerce delivery alerts, or event confirmations, we've built voice systems that work where it matters.",
+    },
+    {
+      title: 'End-to-End Call Automation',
+      description:
+        'We handle everything—voice logic, scripts, call routing, compliance prompts, logs, and performance reports.',
+    },
+    {
+      title: 'Secure, Compliant, & Monitored',
+      description:
+        'Your voice system is designed with privacy, fallback handling, and opt-out compliance from day one.',
+    },
   ],
   'custom-ai': [
-    { title: 'Built from the Ground Up', description: 'From training data to deployment—we handle the full lifecycle of your AI system, customized to solve exactly what your business needs.' },
-    { title: 'Designed for Complex Use Cases', description: 'Need forecasting models? Fraud detection? AI-assisted operations? We build systems for serious business problems—across industries.' },
-    { title: 'Flexible Architecture', description: 'We develop AI that works where you need it—on-prem, cloud, hybrid, API-only, or embedded in existing tools.' },
-    { title: 'Collaborative & Transparent Process', description: 'You’re in the loop at every step—from design sprints to technical reviews and post-launch support.' },
-    { title: 'Data-Secure & IP-Protected', description: 'Your data, your models, your rules. We build with security, compliance, and full IP ownership in mind.' }
+    {
+      title: 'Built from the Ground Up',
+      description:
+        'From training data to deployment—we handle the full lifecycle of your AI system, customized to solve exactly what your business needs.',
+    },
+    {
+      title: 'Designed for Complex Use Cases',
+      description:
+        'Need forecasting models? Fraud detection? AI-assisted operations? We build systems for serious business problems—across industries.',
+    },
+    {
+      title: 'Flexible Architecture',
+      description:
+        'We develop AI that works where you need it—on-prem, cloud, hybrid, API-only, or embedded in existing tools.',
+    },
+    {
+      title: 'Collaborative & Transparent Process',
+      description: "You're in the loop at every step—from design sprints to technical reviews and post-launch support.",
+    },
+    {
+      title: 'Data-Secure & IP-Protected',
+      description:
+        'Your data, your models, your rules. We build with security, compliance, and full IP ownership in mind.',
+    },
   ],
   'data-analytics': [
-    { title: 'Built Around Your Business Goals', description: 'We don’t just chart data—we shape your analytics system to align with what drives your business forward.' },
-    { title: 'Integrated Across Your Tools', description: 'From CRMs and ERPs to marketing platforms and warehouses—we connect your full stack into one analytics engine.' },
-    { title: 'From Insight to Impact', description: 'Our systems don’t just show you what’s happening—they help you understand why, and what to do about it.' },
-    { title: 'Modular & Scalable', description: 'Whether you need a single dashboard or a company-wide BI platform, we build solutions that grow with your business.' },
-    { title: 'Data-Secure & Governance-Ready', description: 'We follow best practices for access control, compliance, and audit logs—so your data stays safe, accessible, and traceable.' }
+    {
+      title: 'Built Around Your Business Goals',
+      description:
+        "We don't just chart data—we shape your analytics system to align with what drives your business forward.",
+    },
+    {
+      title: 'Integrated Across Your Tools',
+      description:
+        'From CRMs and ERPs to marketing platforms and warehouses—we connect your full stack into one analytics engine.',
+    },
+    {
+      title: 'From Insight to Impact',
+      description:
+        "Our systems don't just show you what's happening—they help you understand why, and what to do about it.",
+    },
+    {
+      title: 'Modular & Scalable',
+      description:
+        'Whether you need a single dashboard or a company-wide BI platform, we build solutions that grow with your business.',
+    },
+    {
+      title: 'Data-Secure & Governance-Ready',
+      description:
+        'We follow best practices for access control, compliance, and audit logs—so your data stays safe, accessible, and traceable.',
+    },
   ],
   'app-dev': [
-    { title: 'Strategic Technical Planning', description: 'We don’t just write code—we design systems with future-proof decisions that avoid technical debt.' },
-    { title: 'Full Product Lifecycle Support', description: 'From idea to MVP to v2.0, we’re with you at every phase—development, launch, feedback, and evolution.' },
-    { title: 'Reusable Components & Dev Standards', description: 'We use reusable design systems and engineering standards that ensure your app is robust, maintainable, and well-documented.' },
-    { title: 'Secure & Compliant Codebases', description: 'Security isn’t an afterthought. We build with role-based access, audit trails, and best practices baked into the stack.' },
-    { title: 'Integrations That Just Work', description: 'We connect your app to CRMs, payment gateways, AI services, internal tools, and more—so everything runs smoothly from day one.' }
+    {
+      title: 'Strategic Technical Planning',
+      description: "We don't just write code—we design systems with future-proof decisions that avoid technical debt.",
+    },
+    {
+      title: 'Full Product Lifecycle Support',
+      description:
+        "From idea to MVP to v2.0, we're with you at every phase—development, launch, feedback, and evolution.",
+    },
+    {
+      title: 'Reusable Components & Dev Standards',
+      description:
+        'We use reusable design systems and engineering standards that ensure your app is robust, maintainable, and well-documented.',
+    },
+    {
+      title: 'Secure & Compliant Codebases',
+      description:
+        "Security isn't an afterthought. We build with role-based access, audit trails, and best practices baked into the stack.",
+    },
+    {
+      title: 'Integrations That Just Work',
+      description:
+        'We connect your app to CRMs, payment gateways, AI services, internal tools, and more—so everything runs smoothly from day one.',
+    },
   ],
   'process-automation': [
-    { title: 'Consultative, Not Just Technical', description: 'We partner with you to understand your operations, not just build scripts. Every automation begins with strategy.' },
-    { title: 'Root Cause Focused', description: 'We don’t patch inefficient processes—we dig deep to redesign and optimize the flow for long-term success.' },
-    { title: 'Built for Change & Scale', description: 'Your processes won’t stay the same, and neither should your systems. We design for flexibility, versioning, and easy updates.' },
-    { title: 'Process Visibility & Control', description: 'We deliver dashboards and alerts to track automation success, flag issues, and ensure human oversight where needed.' },
-    { title: 'Compliance-First Automation', description: 'Whether it’s GDPR, HIPAA, or internal controls—we ensure automation respects every compliance and audit requirement.' }
+    {
+      title: 'Consultative, Not Just Technical',
+      description:
+        'We partner with you to understand your operations, not just build scripts. Every automation begins with strategy.',
+    },
+    {
+      title: 'Root Cause Focused',
+      description:
+        "We don't patch inefficient processes—we dig deep to redesign and optimize the flow for long-term success.",
+    },
+    {
+      title: 'Built for Change & Scale',
+      description:
+        "Your processes won't stay the same, and neither should your systems. We design for flexibility, versioning, and easy updates.",
+    },
+    {
+      title: 'Process Visibility & Control',
+      description:
+        'We deliver dashboards and alerts to track automation success, flag issues, and ensure human oversight where needed.',
+    },
+    {
+      title: 'Compliance-First Automation',
+      description:
+        "Whether it's GDPR, HIPAA, or internal controls—we ensure automation respects every compliance and audit requirement.",
+    },
   ],
   default: [
-    { title: 'AI-Driven Innovation', description: 'Harness cutting-edge AI to enhance automation & user engagement.' },
-    { title: 'App Development', description: 'Tailor-made solutions for startups, SMEs, and enterprises.' },
-    { title: 'Scalable & Secure', description: 'Apps built for growth, high performance & security.' },
-    { title: 'Seamless UI/UX', description: 'Engaging, intuitive, and conversion-focused interfaces.' },
-    { title: 'Cross-Platform Development', description: 'Web, iOS, and Android compatibility.' }
-  ]
-};
+    {
+      title: 'AI-Driven Innovation',
+      description: 'Harness cutting-edge AI to enhance automation & user engagement.',
+    },
+    {
+      title: 'App Development',
+      description: 'Tailor-made solutions for startups, SMEs, and enterprises.',
+    },
+    {
+      title: 'Scalable & Secure',
+      description: 'Apps built for growth, high performance & security.',
+    },
+    {
+      title: 'Seamless UI/UX',
+      description: 'Engaging, intuitive, and conversion-focused interfaces.',
+    },
+    {
+      title: 'Cross-Platform Development',
+      description: 'Web, iOS, and Android compatibility.',
+    },
+  ],
+}
 
 const WhyChooseUsV6 = ({ serviceType }: WhyChooseUsV6Props) => {
-  const cards = serviceType ? CARD_CONTENTS[serviceType] : CARD_CONTENTS.default;
+  const cards = serviceType ? CARD_CONTENTS[serviceType] : CARD_CONTENTS.default
   return (
     <section className="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]">
       <div className="container">
@@ -155,9 +326,24 @@ const WhyChooseUsV6 = ({ serviceType }: WhyChooseUsV6Props) => {
           <div className="w-full md:w-[40%] md:max-w-72 md:self-end lg:max-w-[470px]">
             <TextAppearAnimation>
               <p className="text-appear max-w-lg md:place-self-end md:text-right">
-                {serviceType === 'chatbots' && 'We build secure, custom, and intelligent chatbots for every business need—ready to scale and engage 24/7.'}
-                {serviceType === 'workflow' && 'We automate and optimize your unique business processes for efficiency, clarity, and growth.'}
-                {!serviceType && 'We provide smart, secure solutions tailored to your business for smooth digital transformation.'}
+                {serviceType === 'chatbots' &&
+                  'We build secure, custom, and intelligent chatbots for every business need—ready to scale and engage 24/7.'}
+                {serviceType === 'workflow' &&
+                  'We automate and optimize your unique business processes for efficiency, clarity, and growth.'}
+                {serviceType === 'ai-marketing' &&
+                  'We create intelligent marketing systems that learn, adapt, and drive results across your entire customer journey.'}
+                {serviceType === 'voice-ai' &&
+                  'We deliver conversational voice solutions that scale, engage, and convert—built for high-volume interactions.'}
+                {serviceType === 'custom-ai' &&
+                  'We build custom AI systems from the ground up, designed to solve your most complex business challenges.'}
+                {serviceType === 'data-analytics' &&
+                  'We transform your data into actionable insights, powering smarter decisions and measurable business growth.'}
+                {serviceType === 'app-dev' &&
+                  'We create robust, scalable applications with strategic planning and future-proof architecture.'}
+                {serviceType === 'process-automation' &&
+                  'We optimize and automate your business processes for maximum efficiency and compliance.'}
+                {!serviceType &&
+                  'We provide smart, secure solutions tailored to your business for smooth digital transformation.'}
               </p>
             </TextAppearAnimation>
             <RevealWrapper className="mt-5 justify-self-end max-md:w-full md:mt-10">
@@ -304,7 +490,7 @@ const WhyChooseUsV6 = ({ serviceType }: WhyChooseUsV6Props) => {
         </article>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default WhyChooseUsV6;
+export default WhyChooseUsV6

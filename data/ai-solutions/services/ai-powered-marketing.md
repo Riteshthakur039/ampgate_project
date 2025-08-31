@@ -12,7 +12,6 @@ serialNumber: 3
 Smarter campaigns. Sharper targeting. Faster growth.
 Use intelligent systems to automate, personalize, and optimize your marketing across every channel.
 
-
 ### Our service includes
 
 ✅ **Dynamic Audience Targeting**  
@@ -29,5 +28,3 @@ Get real-time insights into what’s working and what’s not. Identify the best
 
 ✅ **Cross-Channel Coordination**  
 Ensure consistency across platforms like email, ads, social, and website—your messaging stays aligned wherever your audience interacts.
-
-

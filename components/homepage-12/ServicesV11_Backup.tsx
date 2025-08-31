@@ -22,7 +22,7 @@ const ServicesV11 = () => {
           <div className="flex-1 md:self-start">
             <TextAppearAnimation>
               <h2 className="text-appear lg:leading-[1.1]">
-                Ampgate Labs 
+                Ampgate Labs
                 <i className="font-instrument">— AI Services That Deliver Impact </i>
               </h2>
             </TextAppearAnimation>
@@ -35,7 +35,7 @@ const ServicesV11 = () => {
             </TextAppearAnimation>
             <RevealWrapper as="ul" className="mt-5 justify-self-end max-md:w-full md:mt-10">
               <li className="mx-auto block w-full text-center md:inline-block md:w-auto">
-                <Link href="/services" className="rv-button rv-button-white block md:inline-block">
+                <Link href="/ai-solutions/services" className="rv-button rv-button-white block md:inline-block">
                   <div className="rv-button-top">
                     <span>Explore AI Services</span>
                   </div>
@@ -208,7 +208,7 @@ const ServicesV11 = () => {
       </div>
 
       {/* third Card Container */}
-      <div className="flex flex-wrap justify-center px-5 mt-5 gap-5 xl:px-5 [&>*:not(:last-child)]:border-l dark:[&>*:not(:last-child)]:border-l-dark [&>*]:border-y dark:[&>*]:border-y-dark">
+      <div className="mt-5 flex flex-wrap justify-center gap-5 px-5 xl:px-5 [&>*:not(:last-child)]:border-l dark:[&>*:not(:last-child)]:border-l-dark [&>*]:border-y dark:[&>*]:border-y-dark">
         {/* Service Card v3 */}
         {sliceThree.map((service) => (
           <RevealWrapper

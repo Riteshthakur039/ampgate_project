@@ -20,7 +20,9 @@ const WhyChooseUs = () => {
           <div className="md:w-1/2 [&>*]:border-b">
             <RevealWrapper className="py-3.5 pr-[30px] lg:py-[30px]">
               <h5>Agentic by Design</h5>
-              <p className="tracking-[ 0.32px] top-3 text-base leading-[1.6]">We work with AI agents that think, adapt, and build alongside us—delivering faster, smarter results.</p>
+              <p className="tracking-[ 0.32px] top-3 text-base leading-[1.6]">
+                We work with AI agents that think, adapt, and build alongside us—delivering faster, smarter results.
+              </p>
             </RevealWrapper>
             <RevealWrapper className="py-3.5 pr-[30px] lg:py-[30px]">
               <h5>Tailored, Not Templated</h5>
@@ -30,7 +32,9 @@ const WhyChooseUs = () => {
             </RevealWrapper>
             <RevealWrapper className="py-3.5 pr-[30px] lg:py-[30px]">
               <h5>Insight-Driven</h5>
-              <p className="mt-3 text-base leading-[1.6] tracking-[0.32px]">We turn data into clear, actionable insights that drive real decisions.</p>
+              <p className="mt-3 text-base leading-[1.6] tracking-[0.32px]">
+                We turn data into clear, actionable insights that drive real decisions.
+              </p>
             </RevealWrapper>
             <RevealWrapper className="py-3.5 pr-[30px] lg:py-[30px]">
               <h5>Seamless Integration</h5>

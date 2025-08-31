@@ -12,7 +12,6 @@ serialNumber: 4
 Give your business a voice. And let it speak at scale.
 Automate conversations, handle calls, and deliver voice experiences that sound natural, responsive, and intelligent.
 
-
 ### Our service includes
 
 ✅ **Natural Voice Interactions**  
@@ -29,5 +28,3 @@ Send hyper-personalized voice messages at scale—customized by name, behavior, 
 
 ✅ **Real-Time Transcription & Insights**  
 Transcribe and analyze voice interactions to identify patterns, improve scripts, and extract key insights.
-
-

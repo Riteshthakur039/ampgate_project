@@ -73,7 +73,9 @@ const ServicesCard: FC<ServicesCardProps> = ({ servicesData }) => {
             </figure>
             <h3 className="mb-3 text-xl font-semibold md:text-2xl md:tracking-wide">{service?.title}</h3>
             <p className="mb-5 min-h-[120px] max-w-[95%] text-base">{service?.description}</p>
-            <Link href={`/services/${service.slug}`} className="rv-button rv-button-sm rv-button-secondary">
+            <Link
+              href={`/ai-solutions/services/${service.slug}`}
+              className="rv-button rv-button-sm rv-button-secondary">
               <div className="rv-button-top">
                 <span>Learn More</span>
               </div>

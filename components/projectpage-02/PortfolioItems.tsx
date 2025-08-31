@@ -7,7 +7,7 @@ export interface ProjectsDataType {
   [key: string]: any
 }
 
-let projects: ProjectsDataType[] = getMarkDownData('data/digital-agency/project')
+let projects: ProjectsDataType[] = getMarkDownData('data/ai-solutions/services')
 let sortedProjects = projects.toSorted((a, b) => a.year - b.year)
 
 const PortfolioItems = () => {
@@ -17,7 +17,7 @@ const PortfolioItems = () => {
         {sortedProjects?.map((project) => (
           <RevealWrapperV2
             as="a"
-            href={`/digital-agency/project/${project.slug}`}
+            href={`/ai-solutions/services/${project.slug}`}
             key={project.slug}
             className="reveal-me project-item underline-hover-effect group col-span-full flex flex-col gap-x-10 gap-y-6 lg:items-center">
             <figure className="overflow-hidden max-lg:w-full">

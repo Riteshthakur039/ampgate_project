@@ -10,19 +10,14 @@ import CTA from '@/components/shared/CTA'
 import CtaImageSlider from '@/components/shared/CtaImageSlider'
 import LayoutTwo from '@/components/shared/LayoutTwo'
 import MarqueeV2 from '@/components/shared/MarqueeV2'
+import { BlogType } from '@/interface'
 import getMarkDownData from '@/utils/GetMarkDownData'
 
 export const metadata = {
   title: 'AI Solutions - Ampgate',
 }
 
-interface BlogsType {
-  slug: string
-  content: string
-  [key: string]: any
-}
-
-const blogPosts: BlogsType[] = getMarkDownData('data/ai-solutions/blog')
+const blogPosts: BlogType[] = getMarkDownData('data/ai-solutions/blog')
 
 const homepage12 = () => {
   return (
@@ -33,9 +28,9 @@ const homepage12 = () => {
       <ServicesV11 />
       <WhyChooseUs />
       <ProcessV7 />
-  <TestimonialV8 />
-  {/* <Pricing /> */}
-  <BlogPostV7 posts={blogPosts} />
+      <TestimonialV8 />
+      {/* <Pricing /> */}
+      <BlogPostV7 posts={blogPosts} />
       <CTA headingClass="xl:text-[92px]" buttonText="Book a Free AI Consultation">
         Your AI
         <CtaImageSlider

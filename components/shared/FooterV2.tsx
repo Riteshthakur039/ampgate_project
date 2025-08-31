@@ -5,11 +5,11 @@ const FooterV2 = () => {
   return (
     <footer className="w-full overflow-hidden">
       <div className="bg-backgroundBody dark:bg-secondary">
-        <h5 className="footer-text-v2 w-full text-nowrap text-center font-satoshi text-[100px] font-medium uppercase leading-[100%] sm:text-[200px] md:text-[220px] lg:text-[250px] xl:text-[280px] 2xl:text-[300px]">
-          Ampgate
-        </h5>
+        <h6 className="footer-text-v2 mb-24 w-full text-nowrap text-center font-satoshi text-[100px] font-medium uppercase leading-[100%] sm:text-[200px] md:text-[220px] lg:text-[100px] xl:text-[150px] 2xl:text-[200px]">
+          Ampgate Labs
+        </h6>
       </div>
-      <div className="-mt-10 bg-backgroundBody py-4 dark:bg-dark sm:-mt-[70px] md:-mt-24 xl:-mt-28">
+      <div className="-mt-36 bg-backgroundBody py-4 dark:bg-dark sm:-mt-[70px] md:-mt-24 xl:-mt-28">
         <div className="container">
           {/* Footer Content Grid */}
           <div className="relative z-10 flex flex-col flex-wrap justify-center gap-y-10 pt-10 sm:flex-row sm:justify-between sm:gap-y-16 md:pt-20">

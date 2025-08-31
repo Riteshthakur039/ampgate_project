@@ -147,7 +147,7 @@ const ServicesV6 = () => {
         <RevealWrapper as="ul" className="reveal-me mt-14 flex justify-center">
           <li className="max-md:w-full">
             <Link
-              href="/services"
+              href="/ai-solutions/services"
               className="rv-button rv-button-white block w-full text-center md:inline-block md:w-auto">
               <div className="rv-button-top">
                 <span>Explore Services</span>

@@ -16,33 +16,6 @@ const menuItems: MenuItemProps[] = [
   {
     title: 'Home',
     url: '/',
-    // items: [
-    //   { title: 'Homepage 01 - Design Agency', url: '/home-01' },
-    //   { title: 'Homepage 02- Digital Solutions Agency', url: '/home-02' },
-    //   { title: 'Homepage 03 -  Portfolio', url: '/home-03' },
-    //   { title: 'Homepage 04 -  Photography Studio', url: '/home-04' },
-    //   { title: 'Homepage 05 -  SEO Agency', url: '/home-05' },
-    //   { title: 'Homepage 06 -  Creative Agency', url: '/home-06' },
-    //   { title: 'Homepage 07 -  Design Studio', url: '/home-07' },
-    //   { title: 'Homepage 08 -  Business Solutions', url: '/home-08' },
-    //   { title: 'Homepage 09 -  Personal Branding', url: '/home-09' },
-    //   { title: 'Homepage 10 -  Full Service Agency', url: '/home-10' },
-    //   { title: 'Homepage 11 -  Video Production', url: '/home-11' },
-    //   { title: 'Homepage 12 -  AI Agency', url: '/home-12' },
-    //   { title: 'Homepage 13 -  Travel Agency', url: '/home-13' },
-    //   { title: 'Homepage 14 -  Film Production Agency', url: '/home-14' },
-    //   { title: 'Homepage 15 -  Branding Agency', url: '/home-15' },
-    //   { title: 'Homepage 16 -  Marketing Agency', url: '/home-16' },
-    //   { title: 'Homepage 17 -  App Development Agency', url: '/home-17' },
-    //   { title: 'Homepage 18 -  Copywriting Agency', url: '/home-18' },
-    //   { title: 'Homepage 19 -  Brand Strategy', url: '/home-19' },
-    //   { title: 'Homepage 20 -  Social Media Agency', url: '/home-20' },
-    //   { title: 'Homepage 21 -  Law Firm Agency', url: '/home-21' },
-    //   { title: 'Homepage 22 -  Event Planning Agency', url: '/home-22' },
-    //   { title: 'Homepage 23 -  Insurance Agency', url: '/home-23' },
-    //   { title: 'Homepage 24 -  Management Agency', url: '/home-24' },
-    //   { title: 'Homepage 25 -  Communications Agency', url: '/home-25' },
-    // ],
   },
   // {
   //   title: 'About',
@@ -64,20 +37,80 @@ const menuItems: MenuItemProps[] = [
     title: 'Blog',
     url: '#',
     items: [
-      { title: 'AI Blog', url: '/ai-blog' },
-      { title: 'SEO Blog', url: '/seo-blog' },
-      { title: 'Blog Details', url: '/seo-blog/the-evolution-of-minimalist-design' },
+      {
+        title: 'AI powered telemedicine for remote healthcare',
+        url: '/ai-solutions/blog/ai-powered-telemedicine-for-remote-healthcare',
+      },
+      {
+        title: 'Exploring the latest advancements in AI research',
+        url: '/ai-solutions/blog/exploring-the-latest-advancements-in-ai-research',
+      },
+      {
+        title: 'How AI is revolutionizing medical diagnostics',
+        url: '/ai-solutions/blog/how-ai-is-revolutionizing-medical-diagnostics',
+      },
+      {
+        title: 'Leveraging AI to improve mental health care',
+        url: '/ai-solutions/blog/leveraging-ai-to-improve-mental-health-care',
+      },
+      {
+        title: 'Revolutionizing education with AI technologies',
+        url: '/ai-solutions/blog/revolutionizing-education-with-ai-technologies',
+      },
+      {
+        title: 'AI powered telemedicine by Ritesh Thakur',
+        url: '/ai-solutions/blog/ritesh',
+      },
+      {
+        title: 'The role of AI in robotic-assisted surgeries',
+        url: '/ai-solutions/blog/the-role-of-ai-in-robotic-assisted-surgeries',
+      },
+      {
+        title: 'Transforming patient care with AI-driven solutions',
+        url: '/ai-solutions/blog/transforming-patient-care-with-ai-driven-solutions',
+      },
+      {
+        title: 'Understanding the ethical implications of AI',
+        url: '/ai-solutions/blog/understanding-the-ethical-implications-of-ai',
+      },
     ],
   },
   {
     title: 'Projects',
     url: '#',
     items: [
-      { title: 'Design Agency', url: '/design-agency' },
-      { title: 'Digital Agency', url: '/digital-agency/project' },
-      { title: 'Case Study', url: '/portfolio-agency/case-study' },
-      { title: 'Project Details', url: '/design-agency/project-nexus' },
-      { title: 'Project Details 02', url: '/digital-agency/project/project-nexus' },
+      {
+        title: 'AI Chatbots and Virtual Assistants',
+        url: '/ai-solutions/services/ai-chatbots-and-virtual-assistants',
+      },
+      {
+        title: 'AI Powered Marketing',
+        url: '/ai-solutions/services/ai-powered-marketing',
+      },
+      {
+        title: 'Application Development and Architecture',
+        url: '/ai-solutions/services/application-development-and-architecture',
+      },
+      {
+        title: 'Business Process Automation and Optimization',
+        url: '/ai-solutions/services/business-process-automation-and-optimization',
+      },
+      {
+        title: 'Custom AI Development',
+        url: '/ai-solutions/services/custom-ai-development',
+      },
+      {
+        title: 'Key Insights from Complex Data',
+        url: '/ai-solutions/services/key-insights-from-complex-data',
+      },
+      {
+        title: 'Voice AI Solutions',
+        url: '/ai-solutions/services/voice-ai-solutions',
+      },
+      {
+        title: 'Workflow Automation',
+        url: '/ai-solutions/services/workflow-automation',
+      },
     ],
   },
 ]

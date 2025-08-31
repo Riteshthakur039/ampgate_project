@@ -10,7 +10,7 @@ export interface ProjectType {
   [key: string]: any
 }
 
-const projects: ProjectType[] = getMarkDownData('data/design-agency')
+const projects: ProjectType[] = getMarkDownData('data/ai-solutions/services')
 
 const OurProject = () => {
   return (
@@ -19,7 +19,7 @@ const OurProject = () => {
         <div className="max-xs:px-5 grid grid-cols-1 gap-6 md:grid-cols-2">
           {projects.map((project) => (
             <RevealWrapper className="group relative w-full cursor-pointer max-lg:mx-auto" key={project.slug}>
-              <Link href={`/design-agency/${project.slug}`} className="block">
+              <Link href={`/ai-solutions/services/${project.slug}`} className="block">
                 <figure className="overflow-hidden">
                   <Image
                     className="block h-full w-full transition-all duration-500 hover:scale-125"

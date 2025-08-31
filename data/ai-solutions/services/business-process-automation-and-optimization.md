@@ -7,13 +7,10 @@ lightLogo: '/images/services/business-process-light.svg'
 darkLogo: '/images/services/business-process-dark.svg'
 ---
 
-
 ### Service overview
 
 Simplify operations. Remove friction. Scale with confidence.
 We help you redesign and automate business processes to reduce manual work, increase accuracy, and unlock efficiency at every level.
-
-
 
 ### Our service includes
 
@@ -31,5 +28,3 @@ We continuously measure process performance, bottlenecks, and drop-off points—
 
 ✅ **Seamless System Integration**  
 We bridge your existing platforms—ERPs, CRMs, internal tools—into a unified, efficient flow that eliminates data silos.
-
-

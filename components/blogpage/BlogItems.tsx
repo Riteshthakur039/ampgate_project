@@ -1,5 +1,5 @@
 'use client'
-import { Blog2Type } from '@/app/seo-blog/page'
+
 import topArrowDark from '@/public/images/icons/top-arrow-dark.svg'
 import topArrow from '@/public/images/icons/top-arrow.svg'
 import Image from 'next/image'
@@ -7,6 +7,15 @@ import Link from 'next/link'
 import { FC, useState } from 'react'
 import RevealWrapper from '../animation/RevealWrapper'
 import Pagination from './Pagination'
+
+export interface Blog2Type {
+  slug: string
+  content: string
+  title: string
+  description: string
+  thumbnail: string
+  [key: string]: any
+}
 
 interface BlogsProps {
   loadedBlogs: Blog2Type[]

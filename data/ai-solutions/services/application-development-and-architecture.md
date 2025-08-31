@@ -12,7 +12,6 @@ darkLogo: '/images/services/app-dev-dark.svg'
 Scalable apps. Bulletproof architecture. Built for growth.
 We design and develop web, mobile, and internal applications that are fast, flexible, and ready to scale from day one.
 
-
 ### Our service includes
 
 ✅ Custom Application Development

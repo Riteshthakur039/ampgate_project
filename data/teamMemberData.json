@@ -1,38 +1,36 @@
 [
   {
-    "id": "marvin",
-    "name": "Marvin McKinney",
-    "role": "Founder",
-    "image": "/images/home-ai/team/ai-team-4.png",
-    "bio": "Passionate about open-source and no-code solutions, I am a UI/UX designer with 17 years of industry experience, dedicated .",
+    "id": "1",
+    "name": "John Doe",
+    "role": "CEO & Founder",
+    "image": "/images/team/team-1.jpg",
+    "bio": "Experienced leader with a passion for innovation and technology. Leading the company towards new horizons in AI and digital solutions.",
     "socialLinks": {
-      "twitter": "https://x.com/home",
-      "facebook": "https://www.facebook.com/staticmania",
-      "youtube": "https://youtu.be/ceJ82RaW9mM"
+      "twitter": "https://twitter.com/johndoe",
+      "facebook": "https://facebook.com/johndoe",
+      "youtube": "https://youtube.com/@johndoe"
     }
   },
   {
-    "id": "jacks",
-    "name": "Jacks Henry Jay",
-    "role": "Co-Founder",
-    "image": "/images/home-ai/team/ai-team-2.png",
-    "bio": "Technology strategist and co-founder with a strong focus on digital transformation, innovation, and scaling tech-driven businesses.",
+    "id": "2",
+    "name": "Jane Smith",
+    "role": "CTO",
+    "image": "/images/team/team-2.jpg",
+    "bio": "Technical visionary specializing in AI development and software architecture. Driving technological excellence across all projects.",
     "socialLinks": {
-      "twitter": "https://x.com/home",
-      "facebook": "https://www.facebook.com/staticmania",
-      "youtube": "https://youtu.be/ceJ82RaW9mM"
+      "twitter": "https://twitter.com/janesmith",
+      "facebook": "https://facebook.com/janesmith"
     }
   },
   {
-    "id": "courtney",
-    "name": "Courtney Wilson",
-    "role": "Web Engineer",
-    "image": "/images/home-ai/team/ai-team-3.png",
-    "bio": "Senior web engineer specializing in scalable and high-performance web applications, with expertise in modern JavaScript frameworks.",
+    "id": "3",
+    "name": "Mike Johnson",
+    "role": "Lead Developer",
+    "image": "/images/team/team-3.jpg",
+    "bio": "Full-stack developer with expertise in modern web technologies and AI integration. Passionate about creating scalable solutions.",
     "socialLinks": {
-      "twitter": "https://x.com/home",
-      "facebook": "https://www.facebook.com/staticmania",
-      "youtube": "https://youtu.be/ceJ82RaW9mM"
+      "twitter": "https://twitter.com/mikejohnson",
+      "youtube": "https://youtube.com/@mikejohnson"
     }
   }
 ]

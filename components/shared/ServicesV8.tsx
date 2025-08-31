@@ -56,7 +56,7 @@ const ServicesV8 = () => {
         {services?.map((service) => (
           <RevealWrapper
             as="a"
-            href={`/services/${service.slug}`}
+            href={`/ai-solutions/services/${service.slug}`}
             className="group relative h-[500px] w-[360px] overflow-hidden"
             key={service.slug}>
             <div className="absolute flex h-full w-full translate-y-0 items-center justify-center opacity-100 transition-all duration-700 group-hover:-translate-y-full group-hover:opacity-0">

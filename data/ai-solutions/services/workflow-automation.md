@@ -14,7 +14,6 @@ Automate tasks, simplify operations, and eliminate bottlenecks—so your team st
 
 ### Our service includes
 
-
 ✅ **End-to-End Process Automation**  
 We design and deploy workflows that connect multiple departments or systems—turning manual routines into self-operating sequences.
 
@@ -29,5 +28,3 @@ Your workflows are built to grow—easy to extend, edit, or clone as your busine
 
 ✅ **Analytics & Visibility**  
 Track what’s running, what’s stuck, and what’s working—so your team can stay informed and in control at all times.
-
-

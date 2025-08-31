@@ -14,7 +14,7 @@ export interface TermsDataType {
   [key: string]: any
 }
 
-const termsData: TermsDataType[] = getMarkDownData('data/policy')
+const termsData: TermsDataType[] = getMarkDownData('data/terms')
 
 const FAQPage = () => {
   return (

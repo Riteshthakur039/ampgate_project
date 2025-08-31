@@ -12,7 +12,6 @@ serialNumber: 6
 Make sense of your data. Make moves with confidence.
 We help you collect, organize, and visualize your data—so you can turn information into clear, actionable insight.
 
-
 ### Our service includes
 
 ✅ **Centralized Dashboards & Reports**  
@@ -29,5 +28,3 @@ We build seamless flows to extract, clean, and sync your data from multiple sour
 
 ✅ **Self-Serve BI Portals**  
 Empower your team with easy-to-use, filterable dashboards—so they get answers without waiting for analysts.
-
-
